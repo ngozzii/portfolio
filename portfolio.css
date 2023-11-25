@@ -1,0 +1,38 @@
+body {
+    /* Set font and reset margin/padding */
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    /* Style for the header section */
+    background-color: #bfe4f0;
+    text-align: center;
+    padding: 20px 0; /* Add padding above and below the content */
+}
+
+#container {
+    /* Flex container for layout */
+    display: flex;
+}
+
+#contact {
+    /* Styling for the contact section */
+    background-color: #e5e5e6;
+    padding: 20px;
+    width: 30%;
+}
+
+#resume-content {
+    /* Styling for the main content section */
+    padding: 20px;
+    width: 70%;
+}
+
+#footer {
+    /* Styling for the footer section */
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
